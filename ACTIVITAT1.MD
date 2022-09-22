@@ -11,5 +11,10 @@ I podem arribar a tenir problemes.
 
 El pressupost original esta en la mateixa carpeta del Cas1.
 
-![1 1](https://user-images.githubusercontent.com/114162326/191769986-0718cffa-6ac8-4bc5-8bf7-d1b79ed4424d.png)
+![1 1](1.1.png)
 
+## -Guia de creació de les unitats compartides BACKUP i DOCUMENTS on es vegin els permisos assignats a cada tipus d’usuari/a.
+
+En aquest cas, per fer la creació de la unitat compartida, el primer que hi hem de fer es una carpeta. L’administrador hi serà el propietari.
+
+Per crear la carpeta. hem d’anar al drive i alli on volem fer-la, hem de fer botó dret hi anar a la part del desplegable on posa crear carpeta.
