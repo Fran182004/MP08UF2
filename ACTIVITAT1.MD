@@ -11,4 +11,5 @@ I podem arribar a tenir problemes.
 
 El pressupost original esta en la mateixa carpeta del Cas1.
 
-![1.1]()
+![1 1](https://user-images.githubusercontent.com/114162326/191769986-0718cffa-6ac8-4bc5-8bf7-d1b79ed4424d.png)
+
