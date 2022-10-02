@@ -11,5 +11,11 @@
 
  - PHP (versio 7.3 o 7.4)
 
+### Instal·lació Apache
 
+He instal·lat el servidor Apache 
+
+```
+sudo apt install apache2
+```
 
