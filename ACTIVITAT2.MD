@@ -71,3 +71,44 @@ sudo mysql -u root -p
 
 ![Create bd 1](https://user-images.githubusercontent.com/114162326/193454244-947eb227-fef8-4d68-a121-c75377e0538e.png)
 
+Tot seguit he creat la base de dades:
+
+```
+CREATE DATABASE owncloud
+```
+
+![Create bd 2](https://user-images.githubusercontent.com/114162326/193454284-78be1675-e910-43c4-9d2e-875c8714cb81.png)
+
+Una vegada la base de dades creada, el que he fet a sigut crear un usuari amb el nom “owntclouduser” i la contraseña “Admin 1234”:
+
+```
+CREATE USER ‘ownclouduser’@’localhost’ IDENTIFIED BY ‘Admin1234’ WITH
+```
+
+![Create bd user 1](https://user-images.githubusercontent.com/114162326/193454297-6257b227-e6ea-4871-8875-f90a32431c33.png)
+
+Tot seguit li he donat al usuari accés a la base de dades:
+
+```
+GRANT ALL ON owncloud.* TO 'ownclouduser'@'localhost' IDENTIFIED BY 'Admin1234' WITH GRANT OPTION;
+```
+
+![Create bd user 2](https://user-images.githubusercontent.com/114162326/193454318-351c8c88-52e7-44e3-9116-98a6a3e8c6f0.png)
+
+### Instalar PHP i els seus mòduls
+
+```
+sudo apt-get install software-properties-common -y
+```
+
+![install PHP 1](https://user-images.githubusercontent.com/114162326/193454343-91cb1798-0973-4d0f-9852-e0b5530e030e.png)
+
+```
+sudo add-apt-repository ppa:ondrej/php
+```
+
+![Install PHP 2](https://user-images.githubusercontent.com/114162326/193454356-985e7ed3-5a81-412d-ac61-ecc03a545d44.png)
+
+
+
+
