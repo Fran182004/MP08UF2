@@ -109,6 +109,77 @@ sudo add-apt-repository ppa:ondrej/php
 
 ![Install PHP 2](https://user-images.githubusercontent.com/114162326/193454356-985e7ed3-5a81-412d-ac61-ecc03a545d44.png)
 
+Tot seguit he actualitzat els paquets amb el repositori anyadit.
 
+```
+sudo apt update
+```
 
+![Install PHP 3](https://user-images.githubusercontent.com/114162326/193454398-080d6d60-c3ec-4ff5-8a5f-42f0256b68a1.png)
 
+Una vegada actualizat el que he fet a sigut instala el PHP amb els mòduls necessaris 
+
+```
+sudo apt install php7.4 libapache2-mod-php7.4 php7.4-common php7.4-mbstring php7.4-xmlrpc php7.4-soap php7.4-apcu php7.4-smbclient php7.4-ldap php7.4-redis php7.4-gd php7.4-xml php7.4-intl php7.4-json php7.4-imagick php7.4-mysql php7.4-cli php7.4-mcrypt php7.4-ldap php7.4-zip php7.4-curl -y
+```
+
+“No tinc captura”
+
+Tot seguit he editat el document php.ini.
+
+```
+sudo nano /etc/php/7.4/apache2/php.ini
+```
+
+![Install PHP 4](https://user-images.githubusercontent.com/114162326/193454450-9659f688-e369-476c-b035-a3be56a8d325.png)
+
+I he canviat els següents paràmetres.
+
+```
+file_uploads = On allow_url_fopen = On memory_limit = 256M upload_max_filesize = 100M display_errors = Off date.timezone = Europe/Madrid
+```
+
+![Install PHP 5](https://user-images.githubusercontent.com/114162326/193454467-7bd6a9af-de34-46f4-8201-68efd03359e5.png)
+
+### Instal·lació Owncloud
+
+Primer que tot m’he descarregat la última versió del programa.
+
+```
+cd /tmp && wget https://download.owncloud.com/server/stable/owncloud-complete-latest.zip
+```
+![Install owncloud 1](https://user-images.githubusercontent.com/114162326/193454556-3c51f77f-45e5-4aaf-86d3-55718efddcb3.png)
+
+Tot seguit he descomprimit els arxius.
+
+```
+unzip owncloud-10.0.8.zip
+```
+
+![Install owncloud 2](https://user-images.githubusercontent.com/114162326/193454561-bee02b0e-5540-4c2a-9ef5-9e9aba6eb2a3.png)
+
+Una vegada d’escomprimit el que he fet a sigut moure els arxius de Owncloud a “/var/www/html/owncloud”.
+
+```
+sudo mv owncloud /var/www/html/owncloud/
+```
+
+![Install owncloud 3](https://user-images.githubusercontent.com/114162326/193454574-efb27164-c06e-44f9-b2fa-3c95fd54d78a.png)
+
+Tot seguit he canviat el propietari i els permisos del directorio de Owncloud www-data per a que els pugi usar Apache, 755 per a que els pugui executar i llegir qualsevol usuari de Linux.
+
+```
+sudo chown -R www-data:www-data /var/www/html/owncloud/
+```
+
+![Install owncloud 4](https://user-images.githubusercontent.com/114162326/193454607-10cb899a-fc0d-443e-97ec-4f4a371d6d51.png)
+
+```
+sudo chmod -R 755 /var/www/html/owncloud/
+```
+
+![Install owncloud 5](https://user-images.githubusercontent.com/114162326/193454628-96ddd4ea-7a91-45e5-b03a-89bece7c4552.png)
+
+Ja ho tendriem instal·lat
+
+![Instalast 1](https://user-images.githubusercontent.com/114162326/193454670-761ebf88-02e0-4e52-a981-e2f9a182ae87.png)
