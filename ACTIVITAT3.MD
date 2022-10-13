@@ -27,7 +27,15 @@ Des de l'arrel del S.O.
 
 ##### Quin són els tres tipus de protecció de dades que ofereix Owncloud?
 
+**1-** Encryptiion in Transit
+
+**2-** Encryption at Rest
+
+**3-** End-to-End encryption
+
 ##### Fes una petita descripció de cada un d'ells.
+
+**1-** 
 
 ##### Per quina raó ens recomana utilitzar Owncloud per als documents de Microsoft Office de la nostra empresa?
 
