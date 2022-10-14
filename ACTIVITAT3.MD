@@ -27,21 +27,31 @@ Des de l'arrel del S.O.
 
 ##### Quin són els tres tipus de protecció de dades que ofereix Owncloud?
 
-**1-** Encryptiion in Transit
+**1-** Encryption in Transit 
 
 **2-** Encryption at Rest
 
-**3-** End-to-End encryption
+**3-** End-to-End Encryption
 
 ##### Fes una petita descripció de cada un d'ells.
 
-**1-** 
+**1- Encryption in Transit** Vol dir que les dades es xifren abans de ser enviats i es desxifren quan arriben al seu lloc de destí.
+
+**2- Encryption at Res** Aquesta manera de xifratge vol dir que el xifratge està fet inclòs quan estan dintre del disc dur, llavor si l'ataca'n no té cap clau de desxifrat no podrà accedir-hi a les dades.
+
+**3- End-to-End Encryption** Vol dir que està xifrat d'extrem a extrem, i només es pot accedir amb una clau de xifratge.
 
 ##### Per quina raó ens recomana utilitzar Owncloud per als documents de Microsoft Office de la nostra empresa?
 
+Es bo utilitzar Ownclowd ja que aixi tenim les nostres dades guardades en un lloc segur. 
+
 ##### Això passa a tots els països?
 
+No en tots ja que no tots els paisos utilitzen els mateixos protocols, pero són semblans.
+
 ##### Quina és la llicència d'OWncloud Enterprise?
+
+
 
 ##### I la d'Owncloud Standard?
 
