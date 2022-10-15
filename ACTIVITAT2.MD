@@ -183,3 +183,53 @@ sudo chmod -R 755 /var/www/html/owncloud/
 Ja ho tendriem instal·lat
 
 ![Instalast 1](https://user-images.githubusercontent.com/114162326/193454670-761ebf88-02e0-4e52-a981-e2f9a182ae87.png)
+
+Expliqueu:
+
+Què signifiquen a Apache les línies de configuració del fitxer owncloud.conf.
+
+![195784901-1d83f3c1-ee2d-46f1-b432-a27156d55f50](https://user-images.githubusercontent.com/114162326/196010277-f936855f-eef3-41d1-94bd-5bd34fc200c5.jpg)
+
+ServerAdmin admin@exemple.com:
+
+DocumentRoot /var/www/html/owncloud/:
+
+ServerName dungeonfbits.com:
+
+ServerAlias www.dungeonfbits.com
+
+Alias /owncloud "/var/www/html/ owncloud/"
+
+<Directory /var/www/html/owncloud/>
+
+options +FollowSymlinks
+
+AllowOverride All
+
+Require all granted
+
+</IfModule>
+
+SetEnv HOME /var/www/html/owncloud
+
+SetEnv HTTP_HOME /var/www/html/owncloud
+
+</Directory>
+
+ErrorLog ${APACHE_LOG_DIR}/error.log
+
+CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+</VirtualHost>
+
+Què fa la comanda a2ensite?
+-Activa una pagina web
+
+I la comando a2dissite?
+-Desactiva la pagina web
+
+Què significa la línia de /etc/hosts
+127.0.0.1 owncloud.XYZ.com
+
+Es per a fer una conecsio entre la ip una direcció
+
