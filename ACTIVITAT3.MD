@@ -51,7 +51,7 @@ No en tots ja que no tots els paisos utilitzen els mateixos protocols, pero són
 
 ##### Quina és la llicència d'OWncloud Enterprise?
 
-
+És una opció que te Owncloud, i es pot adquirir per 12 euros.
 
 ##### I la d'Owncloud Standard?
 
