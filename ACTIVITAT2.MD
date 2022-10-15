@@ -223,12 +223,15 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 
 Què fa la comanda a2ensite?
+
 -Activa una pagina web
 
 I la comando a2dissite?
+
 -Desactiva la pagina web
 
 Què significa la línia de /etc/hosts
+
 127.0.0.1 owncloud.XYZ.com
 
 Es per a fer una conecsio entre la ip una direcció
