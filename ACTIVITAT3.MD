@@ -55,17 +55,30 @@ No en tots ja que no tots els paisos utilitzen els mateixos protocols, pero són
 
 ##### I la d'Owncloud Standard?
 
+Es pot conseguir per 5 euros.
+
 ##### Es poden veure videos en Streaming directament des de Owncloud?
+
+Si que es pot.
 
 ##### Es poden connectar directoris de Google Drive a Owncloud?
 
+Si que es pot.
+
 ##### I Dropbox?
 
+També es pot.
+
 ##### Compta Owncloud amb antivirus? En cas afirmatiu com es diu?
+
+Nomes si instal·les l'extenció
 
 ### 3.4.- Mostra els següents canvis de paràmetres d'usuari:
 
 ##### Posa't una imatge d'usuari.
+
+![image](https://user-images.githubusercontent.com/114162326/196966808-d8dbe5b9-9805-47c3-a57e-2a708942c160.png)
+
 
 ##### Afegeix el teu mail de l'Institut.
 
