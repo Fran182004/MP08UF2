@@ -77,14 +77,16 @@ Nomes si instal·les l'extenció
 
 ##### Posa't una imatge d'usuari.
 
-![image](https://user-images.githubusercontent.com/114162326/196966808-d8dbe5b9-9805-47c3-a57e-2a708942c160.png)
-
+![image](https://user-images.githubusercontent.com/114162326/196968095-ddbd59fc-72a3-4f93-81b2-b52de7f7d18c.png)
 
 ##### Afegeix el teu mail de l'Institut.
 
+![image](https://user-images.githubusercontent.com/114162326/196968182-5c5fac41-8bd9-4e5c-b24f-2a690e078d33.png)
+
 ##### Canvia l'idioma a català.
+
+![image](https://user-images.githubusercontent.com/114162326/196968768-1144ce94-e666-42cd-aafa-272d08b7b667.png)
 
 ##### Mostra la versió d'Owncloud instal·lada.
 
-
-
+![image](https://user-images.githubusercontent.com/114162326/196968882-e96ccd1a-578b-407e-9236-cc3775eaa500.png)
