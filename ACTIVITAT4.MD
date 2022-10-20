@@ -50,17 +50,24 @@ Crea 6 fitxers de 100MB i pujal's a Owncloud un per un.
 
 **RESPOSTA**
 
+![image](https://user-images.githubusercontent.com/114162326/196978920-bd4bab44-8e37-49b7-a239-1fb976802e1d.png)
+
 **4.6.-** Busca al teu perfil quin percentatge de quota estas utilitzant.
 
 **RESPOSTA**
+
+![image](https://user-images.githubusercontent.com/114162326/196979303-b6f2483e-ed4f-43c9-a21f-3cc9f6c29a44.png)
 
 **4.7.-** Canvia la quota de l'usuari a 1GB i mostra tots els fitxers pujats.
 
 **RESPOSTA**
 
+![image](https://user-images.githubusercontent.com/114162326/196983125-abfab00e-7872-4cc2-9eee-70b91d781303.png)
+
 **4.8.-** Crea un usuari anomenat usuari2XYZ i fical al grup usuaris.
 
 **RESPOSTA**
+
 
 **4.9.-** Comparteix un fitxer de usuariXYZ a usuari2XYZ i mostra com l'usuari2XYZ pot veure i descarregar el fitxer.
 
