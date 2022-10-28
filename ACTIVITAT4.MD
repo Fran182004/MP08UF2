@@ -68,22 +68,33 @@ Crea 6 fitxers de 100MB i pujal's a Owncloud un per un.
 
 **RESPOSTA**
 
+![image](https://user-images.githubusercontent.com/114162326/198641126-9ce4da1c-560f-4ab3-8f26-48c918ef4c54.png)
 
 **4.9.-** Comparteix un fitxer de usuariXYZ a usuari2XYZ i mostra com l'usuari2XYZ pot veure i descarregar el fitxer.
 
 **RESPOSTA**
 
+![image](https://user-images.githubusercontent.com/114162326/198644364-01b9fa0c-c758-45f2-8be9-a5bd5d4d9e8c.png)
+
+![image](https://user-images.githubusercontent.com/114162326/198645457-3551e2be-7482-4527-86ef-9400603d8d13.png)
+
 **4.10.-** Esborra la carpeta Learn more about owncloud.
 
 **RESPOSTA**
+
+![image](https://user-images.githubusercontent.com/114162326/198648979-8c4e73dd-38db-47f9-93e8-4dd90809029d.png)
 
 **4.11.-** Recupera la carpeta Learn more about owncloud.
 
 **RESPOSTA**
 
+![image](https://user-images.githubusercontent.com/114162326/198649268-d61229d4-5e98-4a13-a895-cc65c269431d.png)
+
 **4.12.-** Com a usuariXYZ crea una carpeta nova anomenada shared i comparteix-la amb l'usuari usuari2XYZ.
 
 **RESPOSTA**
+
+![image](https://user-images.githubusercontent.com/114162326/198650013-b911301f-9565-4a11-94b5-30cba9e36604.png)
 
 **4.13.-** Entra a Market instal·la dues aplicacions que no estiguin ja instal·lades i explica què fan i com funcionen.
 
